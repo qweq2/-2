@@ -1,9 +1,6 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QLable, QApplication,QPushButton,QVBoxLayout,QHBoxLayout,QLineEdit
 from instr import *
-txt_title = "Тест Руфле"
-win_width,win_height = 1000,600
-win_x,win_y = 200,200
 class TestWin(QtWidget):
     def __init__(self):
         super()__init__()
